@@ -1,0 +1,57 @@
+// Navigation code here
+.navigation {
+  .flex();
+  flex-direction: row-reverse;
+  flex-direction: column-reverse;
+  background-color: @wild-sand;
+  border-bottom: @sea-shell;
+}
+
+.navigation h1 {
+  .flex();
+  font-size: 4rem;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav {
+  width: 50%;
+  .flex();
+  justify-content: space-evenly;
+  margin-left: 25%;
+  @media @phone {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: @river-bend;
+  margin-bottom: 10px;
+}
+
+form {
+  .flex();
+  font-size: 2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  @media @phone {
+    margin-top: 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+  div {
+    padding: 10px 5px;
+  }
+  input, textarea {
+    width: 140px;
+    height: 2.5em;
+    @media @phone {
+      margin-top: 5px;
+      height: 2.5em;
+      width: 200px;
+    }
+  }
+}

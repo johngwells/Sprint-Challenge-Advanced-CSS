@@ -1,0 +1,15 @@
+// Mixins Here
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+// Parametric mixin
+.custom-button(@width, @height, @padtop) {
+  width: @width;
+  height: @height;
+  padding-top: @padtop;
+}
