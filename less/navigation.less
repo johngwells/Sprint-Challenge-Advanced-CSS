@@ -15,12 +15,10 @@
 }
 
 nav {
-  width: 60%;
   .flex();
-  justify-content: space-evenly;
-  margin-left: 20%;
+  justify-content: center;
   @media @phone {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
 }
@@ -29,7 +27,12 @@ a {
   text-decoration: none;
   font-size: 1.8rem;
   color: @river-bend;
+  margin-right: 2%;
+  margin-left: 2%;
   margin-bottom: 10px;
+  @media @phone {
+    font-size: 1.7rem;
+  }
 }
 
 form {
